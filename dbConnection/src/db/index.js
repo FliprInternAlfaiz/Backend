@@ -1,5 +1,6 @@
+require('dotenv').config();
 const mongoose = require("mongoose");
-const { DB_NAME } = require("../constant");
+const { DB_NAME } = require('../constant'); 
 
 const connectDB = async()=>{
     try {
@@ -11,5 +12,4 @@ const connectDB = async()=>{
     }
 }
 
-
-export {connectDB};
+module.exports = { connectDB };
