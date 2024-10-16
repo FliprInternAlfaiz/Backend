@@ -1,2 +1,2 @@
-const DB_NAME = "youtube";
-module.exports = { DB_NAME };
+const DB_NAME = "videotube";
+export default DB_NAME;
