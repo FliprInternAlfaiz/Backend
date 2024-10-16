@@ -1,5 +1,7 @@
 const RegisterUser = async (req, res) => {
-    res.status(200).json("Register User Successfully"); // Fixed typo
+    res.status(200).json({
+        message:"Register User Successfully"
+    })
 }
 
-export { RegisterUser }; // Ensure this export is correct
+export { RegisterUser }; 
